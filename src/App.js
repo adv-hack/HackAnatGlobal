@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import "semantic-ui-css/semantic.min.css";
+//import "semantic-ui-css/semantic.css";
 import 'react-datepicker/dist/react-datepicker.css';
 
 import appSyncConfig from "./aws-exports";

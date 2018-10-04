@@ -57,10 +57,10 @@ class NewEvent extends Component {
 
         return (
             <div className="ui container raised very padded segment">
-                <h1 className="ui header">Create an event</h1>
+                <h1 className="ui header">Create Notification</h1>
                 <div className="ui form">
                     <div className="field required eight wide">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Title</label>
                         <input type="text" id="name" value={event.name} onChange={this.handleChange.bind(this, 'name')} />
                     </div>
                     <div className="field required eight wide">
