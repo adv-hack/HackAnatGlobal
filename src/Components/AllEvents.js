@@ -66,7 +66,7 @@ class AllEvents extends Component {
             </div>
             </div>
             <div class="column">
-            <button className="btn btn-advanced" onClick={this.handleDeleteClick.bind(this, event)} style={{width:'160px', margin:'0 auto'}}>
+            <button className="btn btn-advanced" onClick={this.handleDeleteClick.bind(this, event)} style={{width:'140px', margin:'0 auto'}}>
                 <i className="trash icon"></i>
                 Delete
             </button>
